@@ -37,7 +37,7 @@ double num = 6.7;
 boolean TrueorFalse = false;
 int num1 = 2, num2 = 3, num3 = 4, num4 = 6, num6 = 7, num7=10, num8=12, num9=15; 
 System.out.println(num1);
-
+System.out.println("My age is " + num9);
 
 
 
@@ -47,15 +47,23 @@ System.out.println(num1);
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
-
+    System.out.println("answer the following: 3 + 4 = ?, 5 + 7 = ?, 4*2 = ?");
+    System.out.println((3+4) + ", " + (5+7) + ", " + (4*2));
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
-
-
+System.out.println("Odd integers from 1 to 100");
+    for (int i = 0; i < 101; i++){
+      if (i % 2 != 0){
+      System.out.println(i);}
+    }
 
     //All multiples of 3 from 1 to 100
-
+System.out.println("All multiples of 3 from 1 to 100");
+    for (int m = 1; m < 101; m++){
+      if (m % 3 == 0){
+      System.out.println(m);}
+    }
 
 
 
